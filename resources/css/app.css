@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus, button:focus {
+    outline: none;
+}
+
+.swal-primary-button {
+    background-color: var(--color-primary-DEFAULT);
+    color: var(--color-primary-text);
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--color-primary-hover);
+    border-radius: 0.25rem;
+    transition: box-shadow 0.3s ease;
+}
+
+.swal-primary-button:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.radio-button.checked .w-6 svg {
+    display: block; /* Display the checked icon when checked */
+}
