@@ -53,6 +53,11 @@ This is a simple Laravel application to manage products in an e-commerce dashboa
 
 Visit the app at: http://127.0.0.1:8000
 
+7. **Login**
+
+User: admin@example.com,
+Pass: password
+
 Path | Purpose
 routes/web.php | Web routes for the app
 app/Http/Controllers/ | Product and Auth controllers
